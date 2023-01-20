@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Good tasting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Evening at home, what to prepare?</h1>
+    
+    <!-- On crée un boutton Qui va sortir un cocktail de manière aléatoire -->
+    <button type="button" class="lucky" id="randomMeal">
+      No idea? Try me
+    </button>
+  </header>
+
+  <section class="menu">
+    <div class="apero">
+      <select id="categoryB">
+        <option>-</option>
+      </select>
+      <input type="text" class="search-text" id="search-text" placeholder="Drink Name" />
+      <button type="button" class="submit-button">
+        Search
+      </button>
+        <div id="drinks-display" ></div>
+    </div>
+
+
+    <div class="food">
+      <select id="categoryF">
+        <option>-</option>
+      </select>
+      <input type="text" placeholder="Enter food name" id="searchInput">
+      
+      <div id="results"></div>
+    </div>
+  </section>
+
+
+
+
+  <script src="script.js" type="text/javascript" ></script>
+
+</body>
+
+
+
+</html>
